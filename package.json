@@ -1,8 +1,8 @@
 {
-  "name": "code-snippets",
-  "displayName": "code-snippets",
-  "description": "",
-  "version": "0.0.1",
+  "name": "kincy-code-snippets",
+  "displayName": "kincy-code-snippets",
+  "description": "kincy' snippets",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -12,14 +12,27 @@
   "contributes": {
     "snippets": [
       {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
         "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
   },
-  "publisher": "3489bb80-e279-6cd9-9d68-98c971b10478",
+  "publisher": "kincy",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jackson-Mseven/code-snippet-vscode-plugin.git"
-  }
+  },
+  "icon": "images/snippet.jpg"
 }

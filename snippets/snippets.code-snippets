@@ -1,10 +1,10 @@
 {
-  "Console Log": {
-    "prefix": "cloga",
+  "Print to console": {
+    "scope": "javascript,typescript,typescriptreact,react",
+    "prefix": "clog",
     "body": [
-      "console.log('a');"
+      "console.log('$CLIPBOARD---', $CLIPBOARD$1);",
     ],
-    "description": "输出 console.log()",
-    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+    "description": "打印剪切板内容"
   }
 }
