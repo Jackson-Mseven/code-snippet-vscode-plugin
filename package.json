@@ -17,5 +17,9 @@
       }
     ]
   },
-  "publisher": "3489bb80-e279-6cd9-9d68-98c971b10478"
+  "publisher": "3489bb80-e279-6cd9-9d68-98c971b10478",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jackson-Mseven/code-snippet-vscode-plugin.git"
+  }
 }
