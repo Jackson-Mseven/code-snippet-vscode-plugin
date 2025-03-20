@@ -1,0 +1,21 @@
+{
+  "name": "code-snippets",
+  "displayName": "code-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "publisher": "3489bb80-e279-6cd9-9d68-98c971b10478"
+}

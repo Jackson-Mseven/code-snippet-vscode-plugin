@@ -1,0 +1,10 @@
+{
+  "Console Log": {
+    "prefix": "cloga",
+    "body": [
+      "console.log('a');"
+    ],
+    "description": "输出 console.log()",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  }
+}
